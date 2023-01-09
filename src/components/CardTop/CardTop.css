@@ -1,0 +1,53 @@
+.card-top {
+    width: 320px;
+    border-top: 8px red solid;
+    border-radius: 6px;
+    text-align: center;
+    background: #EFF3FA;
+    display: inline-block;
+    margin: 16px 0 0 32px;
+}
+
+@media (max-width: 700px) {
+    .card-top {
+        margin: 1em 0;
+    }
+}
+
+.card-top.dark {
+    background: #1D2742;
+}
+
+.card-top.dark:hover {
+    background: #2d3d66;
+}
+
+.card-top .topo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.card-top:hover {
+    background: #dadce9;
+    cursor: pointer;
+}
+
+.rodape-top h4 {
+    font-size: 5em;
+    margin-top: -0.1em;
+}
+
+.rodape-top h5 {
+    font-size: 2em;
+    margin-top: -3.5em;
+    text-transform: uppercase;
+    color: #C6C8D4;
+}
+
+.rodape-top h6 {
+    font-size: 1em;
+    margin-top: -2em;
+    margin-bottom: 0.4em;
+}

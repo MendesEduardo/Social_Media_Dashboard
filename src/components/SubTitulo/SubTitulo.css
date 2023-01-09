@@ -1,0 +1,8 @@
+.sub-titulo h2 {
+    color: #bcbdbc;
+    margin: 2em 1em;
+}
+
+.sub-titulo.dark h2 {
+    color: #FFF;
+}
